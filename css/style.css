@@ -33,10 +33,6 @@ li {
     color: var(--second);
 }
 
-.info {
-    margin-right: 590px;
-}
-
 .logo {
     margin-right: 470px;
     font-size: 36px;
@@ -49,7 +45,6 @@ li {
 .navbar {
     padding: 0;
 }
-
 
 .nav-item {
     padding: 31px 19px;
