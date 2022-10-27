@@ -134,7 +134,7 @@ li {
 }
 
 .new-seson-item {
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 
 .new-seson-list:last-child {
@@ -151,6 +151,7 @@ li {
     background-size: auto;
     background-repeat: no-repeat, repeat;
     background-position: center;
+    padding: 0;
 }
 
 .new-colection-wraper {
@@ -182,7 +183,7 @@ li {
 
 .old-colection-link {
     font-style: normal;
-    margin: 0 27%;
+    /* margin: 0 100px; */
     padding: 12px 28px;
     font-weight: 400;
     font-size: 18px;
@@ -294,6 +295,7 @@ li {
 
 .footer {
     background-image: url(../img/footer-bg.webp);
+    background-color: var(--main-bg);
     background-size: auto;
     background-repeat: no-repeat, repeat;
     background-position: top;
