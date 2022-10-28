@@ -222,10 +222,29 @@ li {
     margin: 0 auto;
 }
 
+table {
+    border-collapse: separate;
+    border-spacing: 40px;
+    border: none !important;
+    border-bottom-style: none !important;
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+.last-td {
+    background-image: url(../img/new-clock3.png);
+    background-size: auto;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+}
+
+
 .new-product {
-    background-color: var(--second-bg);
+    background-color: var(--second-bg) !important;
     /* margin-right: 20px; */
+    color: var(--main-color);
     margin-bottom: 40px;
+    border: none;
 }
 
 .new-products-link {
