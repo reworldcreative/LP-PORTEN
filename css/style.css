@@ -36,6 +36,8 @@ li {
 .logo {
     margin-right: 470px;
     font-size: 36px;
+    line-height: 54px;
+    color: var(--main-color);
 }
 
 .navbar-nav:last-child {
@@ -114,6 +116,7 @@ li {
 }
 
 .section-title {
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -173,6 +176,7 @@ li {
 
 
 .old-colection .section-title {
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
 }
 
@@ -224,7 +228,7 @@ li {
 
 table {
     border-collapse: separate;
-    border-spacing: 40px;
+    border-spacing: 23px;
     border: none !important;
     border-bottom-style: none !important;
     text-align: center;
@@ -317,6 +321,7 @@ table {
 }
 
 .footer-section-title {
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
