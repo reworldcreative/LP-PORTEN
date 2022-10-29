@@ -125,6 +125,11 @@ li {
     text-transform: uppercase;
 }
 
+.colextions-wrapper {
+    width: 100%;
+    margin: 0;
+}
+
 .new-seson {
     background-color: var(--main-bg);
     padding: 90px 0;
@@ -148,8 +153,9 @@ li {
     background-image: url(../img/new-colection-bg.webp);
     background-size: auto;
     background-repeat: no-repeat, repeat;
-    background-position: center;
+    background-position: left top;
     padding: 0;
+
 }
 
 .new-colection-wraper {
