@@ -48,10 +48,9 @@ li {
     padding: 0;
 }
 
-.nav-item {
+.nav-link {
     padding: 31px 19px;
     margin-right: 17px;
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
@@ -59,9 +58,9 @@ li {
     color: var(--second);
 }
 
-.navbar-nav .active {
+.active {
     background-color: #1F1F1F;
-    color: var(--main-color);
+    color: var(--main-color) !important;
 }
 
 .icon {
