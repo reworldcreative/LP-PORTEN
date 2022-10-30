@@ -12,6 +12,11 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--second);
+}
+
+a:hover {
+    color: var(--main-color);
 }
 
 li {
@@ -58,7 +63,8 @@ li {
     color: var(--second);
 }
 
-.active {
+.active,
+.nav-link:hover {
     background-color: #1F1F1F;
     color: var(--main-color) !important;
 }
@@ -135,6 +141,10 @@ li {
     margin: 0;
 }
 
+.new-seson-list-wrapper {
+    padding: 0;
+}
+
 .new-seson-item {
     /* margin-right: 50px; */
 }
@@ -144,8 +154,9 @@ li {
 }
 
 .new-seson-img-wraper {
-    padding: 270x 22px 34px;
+    /* padding: 27px 22px 34px; */
     background-color: #191B1C;
+    width: 220px;
 }
 
 .new-colection {
@@ -154,15 +165,16 @@ li {
     background-repeat: no-repeat, repeat;
     background-position: left top;
     padding: 0;
-
 }
 
 .new-colection-wraper {
     padding-top: 400px;
+    padding: 0 auto;
+    text-align: center;
 }
 
 .new-colection-link {
-    margin: 0 35%;
+    /* margin: 0 35%; */
     padding: 12px 28px;
     font-style: normal;
     font-weight: 400;
