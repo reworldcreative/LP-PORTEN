@@ -53,6 +53,14 @@ li {
     padding: 0;
 }
 
+.login-wrap {
+    padding-left: 30px !important;
+}
+
+.login-icon {
+    margin-right: 20px;
+}
+
 .nav-link {
     padding: 31px 19px !important;
     /* margin-right: 17px; */
@@ -133,7 +141,12 @@ li {
 
 .colextions-wrapper {
     width: 100%;
-    margin: 0;
+    margin-top: 35px;
+}
+
+.article-img {
+    margin-right: 100px;
+    padding: 0;
 }
 
 .new-seson {
@@ -356,6 +369,7 @@ table {
     line-height: 23px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    margin-bottom: 14px;
 }
 
 .article-text {
@@ -366,6 +380,11 @@ table {
     margin-bottom: 0;
 }
 
+.hashtags {
+    margin-bottom: 0;
+    align-self: flex-end;
+}
+
 .partners {
     background-color: var(--second-bg);
     padding-top: 90px;
@@ -374,6 +393,7 @@ table {
 
 .partners-list {
     margin: 0 auto;
+    margin-top: 66px;
 }
 
 .partner-logo {
@@ -433,5 +453,10 @@ table {
 
 .footer-copiright {
     background-color: #0F0F0F;
+    padding: 17px 7% !important;
     margin-top: 50px;
+}
+
+.footer-copiright p {
+    margin: 0;
 }
