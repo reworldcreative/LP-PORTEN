@@ -459,6 +459,10 @@ table {
     color: var(--main-color);
 }
 
+.btn:hover {
+    background-color: #1F1F1F !important;
+}
+
 .footer-copiright {
     background-color: #0F0F0F;
     padding: 17px 7% !important;
