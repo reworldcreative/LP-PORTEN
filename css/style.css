@@ -86,8 +86,8 @@ li {
 
 .hero {
     background-image: url(../img/hero-bg.webp);
-    /* background-size: 100%; */
-    background-size: 1920px;
+    background-size: cover;
+    /* background-size: 1920px; */
     background-repeat: no-repeat, repeat;
     background-position: top;
     padding-top: 160px;
@@ -175,7 +175,8 @@ li {
 .new-seson-img-wraper {
     /* padding: 27px 22px 34px; */
     background-color: #191B1C;
-    width: 220px;
+    padding: 30px 22px;
+    /* width: 220px; */
 }
 
 .new-seson-item-name {
@@ -190,7 +191,7 @@ li {
 
 .new-colection {
     background-image: url(../img/new-colection-bg.webp);
-    background-size: auto;
+    background-size: 100% 100%;
     background-repeat: no-repeat, repeat;
     background-position: left top;
     padding: 0;
@@ -296,7 +297,7 @@ table {
     background-repeat: no-repeat, repeat;
     background-position: center; */
     position: relative;
-    top: -30px;
+    /* top: -30px; */
     text-align: center;
 }
 
@@ -323,10 +324,11 @@ table {
 .new-product-img {
     width: 215px;
     height: 264px;
+    padding: 30px 32px !important;
 }
 
 .new-product-img-wrap {
-    padding: 30px 32px !important;
+    /* padding: 30px 32px !important; */
     background-color: var(--second-bg) !important;
 }
 
@@ -471,4 +473,11 @@ table {
 
 .footer-copiright p {
     margin: 0;
+}
+
+@media only screen and (max-width: 300px) {
+
+    .new-products-title {
+        font-size: 30px;
+    }
 }

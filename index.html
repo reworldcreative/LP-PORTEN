@@ -66,7 +66,7 @@
                         </ul>
 
                         <div class="container d-flex col-md-1 p-0 m-0 mb-md-0 mb-sm-3 ms-3">
-                            <i class="bi bi-cart2 align-self-center icon me-5"></i>
+                            <i class="bi bi-cart2 align-self-center icon me-xl-5 me-md-4"></i>
                             <i class="bi bi-search align-self-center icon"></i>
                         </div>
                     </div>
@@ -109,27 +109,27 @@
                 <section class="container new-seson col-lg-7 col-md-12 col-sm-12">
                     <h2 class="section-title">СЕЗОН 2021/22</h2>
 
-                    <div class="container">
-                        <ul class="row new-seson-list-wrapper">
+                    <div class="container d-flex justify-content-center">
+                        <ul class="row new-seson-list-wrapper container">
                             <li class="new-seson-item col-lg-4 col-md-4 col-sm-6">
-                                <div class="new-seson-img-wraper m-0">
-                                    <img src="./img/new-clock1.png" alt="clock 1">
+                                <div class="new-seson-img-wraper m-0 d-flex justify-content-center">
+                                    <img class="w-100" src="./img/new-clock1.png" alt="clock 1">
                                 </div>
                                 <p class="new-seson-item-name">Louis XVI ATHOS</p>
                                 <p class="new-seson-item-price">13 600 грн.</p>
 
                             </li>
                             <li class="new-seson-item col-lg-4 col-md-4 col-sm-6">
-                                <div class="new-seson-img-wraper m-0">
-                                    <img src="./img/new-clock2.png" alt="clock 1">
+                                <div class="new-seson-img-wraper m-0 d-flex justify-content-center">
+                                    <img class="w-100" src="./img/new-clock2.png" alt="clock 1">
                                 </div>
                                 <p class="new-seson-item-name">Carl von Zeyten</p>
                                 <p class="new-seson-item-price">16 500 грн. </p>
 
                             </li>
                             <li class="new-seson-item col-lg-4 col-md-4 col-sm-6 mt-lg-0">
-                                <div class="new-seson-img-wraper m-0">
-                                    <img src="./img/new-clock3.png" alt="clock 1">
+                                <div class="new-seson-img-wraper m-0 d-flex justify-content-center">
+                                    <img class="w-100" src="./img/new-clock3.png" alt="clock 1">
                                 </div>
                                 <p class="new-seson-item-name">JORD AR5905</p>
                                 <p class="new-seson-item-price">65 000 грн.</p>
@@ -155,7 +155,8 @@
                 <div class="container old-colection-wraper col-md-7">
                     <div class="row justify-content-center">
                         <h2 class="section-title">колекція 2018</h2>
-                        <p class="old-colection-text p-md-0 p-sm-3">Годинники як інструмент визначення часу давно і
+                        <p class="old-colection-text p-md-0 p-sm-3 ">Годинники як інструмент визначення часу
+                            давно і
                             надійно
                             прижилися
                             в
@@ -182,14 +183,14 @@
                             губу
                             володаря аксесуара, а щоки - роздутися?</p>
 
-                        <a class="old-colection-link col-md-5 col-sm-4" href="#">переглянути колекцію</a>
+                        <a class="old-colection-link col-lg-6 col-md-5 col-sm-4" href="#">переглянути колекцію</a>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="new-products">
-            <h2 class="section-title">Нові надходження</h2>
+            <h2 class="section-title new-products-title">Нові надходження</h2>
 
             <!-- <ul class="container row new-product-list">
                 <li class=" col-md-3 col-sm-10 new-product">
@@ -235,12 +236,126 @@
                 </li>
             </ul> -->
 
-            <div class="container table-responsive-xl m-0">
-                <table class="table">
+            <div id="carouselControls" class="carousel slide container-fluid d-block d-sm-none" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active justify-content-center">
+                        <div class="new-product col-sm-6 col-md-3">
+                            <div class="new-product-img-wrap d-flex">
+                                <img class="new-product-img" src="./img/new-clock2.png" alt="new-clock" width="215"
+                                    height="234">
+                            </div>
+                            <div class="ms-5">
+                                <p class="new-seson-item-name">Carl von Zeyten</p>
+                                <p class="new-seson-item-price">16 500 грн.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item justify-content-center">
+                        <div class="new-product col-sm-6 col-md-3">
+                            <div class="new-product-img-wrap d-flex">
+                                <img class="new-product-img" src="./img/new-clock3.png" alt="new-clock" width="215"
+                                    height="234">
+                            </div>
+                            <div class="ms-5">
+                                <p class="new-seson-item-name">JORD AR5905</p>
+                                <p class="new-seson-item-price">65 000 грн.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item justify-content-center">
+                        <div class="new-product col-sm-6 col-md-3">
+                            <div class="new-product-img-wrap d-flex">
+                                <img class="new-product-img" src="./img/new-clock4.png" alt="new-clock" width="215"
+                                    height="234">
+                            </div>
+                            <div class="ms-5">
+                                <p class="new-seson-item-name">Emporio Armani Sportivo</p>
+                                <p class="new-seson-item-price">165 000 грн.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item justify-content-center">
+                        <div class="new-product col-sm-6 col-md-3">
+                            <div class="new-product-img-wrap d-flex">
+                                <img class="new-product-img" src="./img/new-clock5.png" alt="new-clock" width="215"
+                                    height="234">
+                            </div>
+                            <div class="ms-5">
+                                <p class="new-seson-item-name">Rolex Oyster Perpetual</p>
+                                <p class="new-seson-item-price">280 000 грн.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item justify-content-center">
+                        <div class="new-product col-sm-6 col-md-3">
+                            <div class="new-product-img-wrap d-flex">
+                                <img class="new-product-img" src="./img/new-clock1.png" alt="new-clock" width="215"
+                                    height="234">
+                            </div>
+                            <div class="ms-5">
+                                <p class="new-seson-item-name">Louis XVI ATHOS</p>
+                                <p class="new-seson-item-price">65 000 грн.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item justify-content-center">
+                        <div class="new-product col-sm-6 col-md-3">
+                            <div class="new-product-img-wrap d-flex">
+                                <img class="new-product-img" src="./img/new-clock6.png" alt="new-clock" width="215"
+                                    height="234">
+                            </div>
+                            <div class="ms-5">
+                                <p class="new-seson-item-name">U-Boat Italo Fontana</p>
+                                <p class="new-seson-item-price">18 700 грн.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item justify-content-center">
+                        <div class="new-product col-sm-6 col-md-3">
+                            <div class="new-product-img-wrap d-flex">
+                                <img class="new-product-img" src="./img/new-clock7.png" alt="new-clock" width="215"
+                                    height="234">
+                            </div>
+                            <div class="ms-5">
+                                <p class="new-seson-item-name">Gucci Men's G</p>
+                                <p class="new-seson-item-price">38 500 грн.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item justify-content-center">
+                        <div class="new-product last-td col-sm-6 col-md-3">
+                            <div class="new-product-img-wrap d-flex">
+                                <img class="new-product-img" src="./img/new-clock3.png" alt="new-clock" width="215"
+                                    height="234">
+                            </div>
+                            <a class="all-products" href="#">ПОКАЗАТИ ВСІ</a>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a>
+            </div>
+
+            <div class="container-fluid table-responsive-xl m-0 d-none d-sm-block">
+                <table class="table container">
                     <tbody class="container new-product-list">
-                        <tr>
+                        <tr class="row">
                             <td class="new-product col-sm-6 col-md-3">
-                                <div class="new-product-img-wrap">
+                                <div class="new-product-img-wrap d-flex justify-content-center">
                                     <img class="new-product-img" src="./img/new-clock2.png" alt="new-clock" width="215"
                                         height="234">
                                 </div>
@@ -248,7 +363,7 @@
                                 <p class="new-seson-item-price">16 500 грн.</p>
                             </td>
                             <td class="new-product col-sm-6 col-md-3">
-                                <div class="new-product-img-wrap">
+                                <div class="new-product-img-wrap d-flex justify-content-center">
                                     <img class="new-product-img" src="./img/new-clock3.png" alt="new-clock" width="215"
                                         height="234">
                                 </div>
@@ -256,15 +371,15 @@
                                 <p class="new-seson-item-price">65 000 грн.</p>
                             </td>
                             <td class="new-product col-sm-6 col-md-3">
-                                <div class="new-product-img-wrap">
+                                <div class="new-product-img-wrap d-flex justify-content-center">
                                     <img class="new-product-img" src="./img/new-clock4.png" alt="new-clock" width="215"
                                         height="234">
                                 </div>
-                                <p class="new-seson-item-name">Emporio Armani Sportivo </p>
+                                <p class="new-seson-item-name">Emporio Armani Sportivo</p>
                                 <p class="new-seson-item-price">165 000 грн.</p>
                             </td>
                             <td class="new-product col-sm-6 col-md-3">
-                                <div class="new-product-img-wrap">
+                                <div class="new-product-img-wrap d-flex justify-content-center">
                                     <img class="new-product-img" src="./img/new-clock5.png" alt="new-clock" width="215"
                                         height="234">
                                 </div>
@@ -272,33 +387,33 @@
                                 <p class="new-seson-item-price">280 000 грн.</p>
                             </td>
                         </tr>
-                        <tr>
-                            <td class="new-product">
-                                <div class="new-product-img-wrap">
+                        <tr class="row">
+                            <td class="new-product col-sm-6 col-md-3">
+                                <div class="new-product-img-wrap d-flex justify-content-center">
                                     <img class="new-product-img" src="./img/new-clock1.png" alt="new-clock" width="215"
                                         height="234">
                                 </div>
                                 <p class="new-seson-item-name">Louis XVI ATHOS</p>
-                                <p class="new-seson-item-price">65 000 грн. </p>
+                                <p class="new-seson-item-price">65 000 грн.</p>
                             </td>
-                            <td class="new-product">
-                                <div class="new-product-img-wrap">
+                            <td class="new-product col-sm-6 col-md-3">
+                                <div class="new-product-img-wrap d-flex justify-content-center">
                                     <img class="new-product-img" src="./img/new-clock6.png" alt="new-clock" width="215"
                                         height="234">
                                 </div>
                                 <p class="new-seson-item-name">U-Boat Italo Fontana</p>
-                                <p class="new-seson-item-price">18 700 грн. </p>
+                                <p class="new-seson-item-price">18 700 грн.</p>
                             </td>
-                            <td class="new-product">
-                                <div class="new-product-img-wrap">
+                            <td class="new-product col-sm-6 col-md-3">
+                                <div class="new-product-img-wrap d-flex justify-content-center">
                                     <img class="new-product-img" src="./img/new-clock7.png" alt="new-clock" width="215"
                                         height="234">
                                 </div>
                                 <p class="new-seson-item-name">Gucci Men's G</p>
                                 <p class="new-seson-item-price">38 500 грн.</p>
                             </td>
-                            <td class="new-product last-td">
-                                <div class="new-product-img-wrap">
+                            <td class="new-product last-td col-sm-6 col-md-3">
+                                <div class="new-product-img-wrap d-flex justify-content-center">
                                     <img class="new-product-img" src="./img/new-clock3.png" alt="new-clock" width="215"
                                         height="234">
                                 </div>
