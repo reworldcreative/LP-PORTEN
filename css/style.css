@@ -261,7 +261,8 @@ li {
 }
 
 .old-colection-wraper {
-    margin: 100px auto;
+    /* margin: 100px auto; */
+    /* padding: 100px 0; */
 }
 
 .new-products {
@@ -411,9 +412,9 @@ table {
 .footer {
     background-image: url(../img/footer-bg.webp);
     background-color: var(--main-bg);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat, repeat;
-    background-position: top;
+    background-position: center;
     padding-top: 80px;
 }
 
