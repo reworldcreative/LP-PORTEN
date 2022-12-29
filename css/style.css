@@ -191,7 +191,7 @@ li {
 
 .new-colection {
     background-image: url(../img/new-colection-bg.webp);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat, repeat;
     background-position: left top;
     padding: 0;
