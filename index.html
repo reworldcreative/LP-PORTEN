@@ -32,14 +32,15 @@
 <body>
     <header class="container-fluid header">
         <div class="container-fluid pre-header d-flex justify-content-center">
-            <div class="container d-flex my-3 row">
-                <div class="d-flex col-lg-10 col-md-9 p-0">
-                    <i class="bi bi-telephone me-3"></i>
-                    <p class="info m-0"> <a class="" href="tel:+88121234567">8 (812) 123-45-67</a>| Працюємо 7 днів на
-                        тиждень |
+            <div class="container d-flex pre-content row">
+                <div class="d-flex col-xl-10 col-md-9 p-0">
+                    <i class="bi bi-telephone"></i>
+                    <p class="info m-0"> <a class="" href="tel:+88121234567">8 (812) 123-45-67 &nbsp;</a>|&nbsp;
+                        Працюємо 7 днів на
+                        тиждень &nbsp; |&nbsp;
                         9:00 — 18:00</p>
                 </div>
-                <div class="d-flex col-lg-2 col-md-3 p-0 login-wrap ps-lg-4 ps-md-0">
+                <div class="d-flex justify-content-center col-xl-2 col-md-3 p-0 login-wrap">
                     <i class="bi bi-box-arrow-in-right login-icon"></i>
                     <p class="login m-0">Вхід / Реєстрація</p>
                 </div>
@@ -49,31 +50,33 @@
         <div class="container">
             <div class="row colextions-wrapper m-0">
                 <nav class="navbar navbar-expand-md">
-                    <a href="#" class="logo col-lg-6 col-md-3 col-sm-3">
+                    <a href="#" class="logo col-xl-6 col-lg-5 col-md-2 col-sm-3">
                         <!-- PORTEN -->
                         <img src="./img/PORTEN.png" alt="logo" width="104">
                     </a>
                     <button class="navbar-toggler bg-secondary my-3" type="button" data-toggle="collapse"
-                        data-target="#collapsibleNavbar">
+                        data-target="#collapsibleNavbar" aria-expanded="false">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse col-lg-5 col-md-3" id="collapsibleNavbar">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link active" href="#">сподобалось</a>
+                    <div class="collapse navbar-collapse col-xl-5 col-lg-3 col-md-9" id="collapsibleNavbar">
+                        <ul class="navbar-nav col-9 justify-content-end d-flex align-items-center">
+                            <li class="nav-item text-center"><a class="nav-link active" href="#">сподобалось</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="#">Особистий кабінет</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">налаштування</a></li>
+                            <li class="nav-item text-center"><a class="nav-link" href="#">Особистий кабінет</a></li>
+                            <li class="nav-item text-center"><a class="nav-link" href="#">налаштування</a></li>
                         </ul>
 
-                        <div class="container d-flex col-md-1 p-0 m-0 mb-md-0 mb-sm-3 ms-3">
-                            <i class="bi bi-cart2 align-self-center icon me-xl-5 me-md-4"></i>
-                            <i class="bi bi-search align-self-center icon"></i>
+                        <div class="container col-3 p-0 d-flex justify-content-xl-center justify-content-md-start">
+                            <i class="col-xl-3 col-md-1 bi bi-cart2 align-self-center icon"></i>
+                            <i class="col-xl-3 m-0 col-md-1 bi bi-search align-self-center icon"></i>
                         </div>
-                    </div>
 
+                    </div>
 
                 </nav>
             </div>
+            </nav>
+        </div>
         </div>
     </header>
 
@@ -88,7 +91,9 @@
                     <p class="hero-city">івано-франківськ</p>
                 </div>
                 <div class="container-fluid row">
-                    <p class="hero-text col-sm-5">В магазинах Торговельній мережі Porten ви можете купити
+                    <p class="hero-text col-xl-5 col-lg-7 col-md-9 col-sm-12">В магазинах Торговельній мережі Porten ви
+                        можете
+                        купити
                         годинник у
                         Бахмуті,
                         Вінниці,
@@ -107,11 +112,11 @@
         <div class="container-fluid">
             <div class="row colextions-wrapper m-0">
                 <section class="container new-seson col-lg-7 col-md-12 col-sm-12">
-                    <h2 class="section-title">СЕЗОН 2021/22</h2>
+                    <h2 class="section-title m-0">СЕЗОН 2021/22</h2>
 
-                    <div class="container d-flex justify-content-center">
-                        <ul class="row new-seson-list-wrapper container">
-                            <li class="new-seson-item col-lg-4 col-md-4 col-sm-6">
+                    <div class="container">
+                        <ul class="row new-seson-list-wrapper container d-flex justify-content-center m-0">
+                            <li class="new-seson-item col-xl-4 col-md-4 col-sm-6 mb-3">
                                 <div class="new-seson-img-wraper m-0 d-flex justify-content-center">
                                     <img class="w-100" src="./img/new-clock1.png" alt="clock 1">
                                 </div>
@@ -119,7 +124,7 @@
                                 <p class="new-seson-item-price">13 600 грн.</p>
 
                             </li>
-                            <li class="new-seson-item col-lg-4 col-md-4 col-sm-6">
+                            <li class="new-seson-item col-lg-4 col-md-4 col-sm-6 mb-3">
                                 <div class="new-seson-img-wraper m-0 d-flex justify-content-center">
                                     <img class="w-100" src="./img/new-clock2.png" alt="clock 1">
                                 </div>
@@ -127,7 +132,7 @@
                                 <p class="new-seson-item-price">16 500 грн. </p>
 
                             </li>
-                            <li class="new-seson-item col-lg-4 col-md-4 col-sm-6 mt-lg-0">
+                            <li class="new-seson-item col-lg-4 col-md-4 col-sm-6">
                                 <div class="new-seson-img-wraper m-0 d-flex justify-content-center">
                                     <img class="w-100" src="./img/new-clock3.png" alt="clock 1">
                                 </div>
@@ -139,8 +144,8 @@
                     </div>
                 </section>
 
-                <section class="container new-colection col-lg-5 col-md-12 col-sm-12">
-                    <div class="container new-colection-wraper pb-5">
+                <section class="container new-colection col-lg-5 col-md-12 col-sm-12 pb-md-5">
+                    <div class="container new-colection-wraper">
                         <h2 class="section-title">Нова колекція</h2>
                         <a class="new-colection-link" href="#">Каталог</a>
                     </div>
@@ -151,39 +156,47 @@
 
         <section class="container-fluid old-colection d-flex justify-content-center">
             <div class="row colextions-wrapper m-0">
-                <img class="col-lg-6 col-md-12 col-sm-12 p-0" src="./img/old-colection-img.webp" alt="fashion man">
-                <div class="container old-colection-wraper col-md-6 py-5">
-                    <div class="row justify-content-center">
-                        <h2 class="section-title">колекція 2018</h2>
-                        <p class="old-colection-text p-md-0 p-sm-3 ">Годинники як інструмент визначення часу
-                            давно і
-                            надійно
-                            прижилися
-                            в
-                            людській
-                            реальності. Романтики та
-                            прагматики, художники та бізнесмени, чоловіки та жінки, дорослі та діти - всі хочуть знати
-                            котра
-                            година
-                            в потрібний момент. Скільки хвилин пройшло, скільки залишилося, а ще - які саме моделі і
-                            якого
-                            бренду
-                            виблискують на руці у друга, коханої або конкурента. З давніх часів, коли людина здогадався
-                            втикнути
-                            в
-                            землю паличку та іншою поличкою взявся відміряти рівні проміжки часу на піску, не вщухають
-                            суперечки
-                            -
-                            яким повинний бути годинник? Наручним, або настільним, або настінним, або, нарешті,
-                            підлоговим?
-                            Чому
-                            ж
-                            кожен діамантик на безеле або шестерінка в механізмі незмінно змушують гордовито випнутися
-                            нижню
-                            губу
-                            володаря аксесуара, а щоки - роздутися?</p>
+                <img class="col-xl-6 col-md-12 col-sm-12 p-0" src="./img/old-colection-img.webp" alt="fashion man">
+                <div class="container old-colection-wraper col-xl-6 col-md-10 p-0">
+                    <div class="row old-colection-text-wrap justify-content-center">
+                        <div class="row">
+                            <h2 class="section-title p-0">колекція 2018</h2>
+                            <p class="old-colection-text p-md-0 p-sm-3 container">Годинники як інструмент
+                                визначення
+                                часу
+                                давно і
+                                надійно
+                                прижилися
+                                в
+                                людській
+                                реальності. Романтики та
+                                прагматики, художники та бізнесмени, чоловіки та жінки, дорослі та діти - всі хочуть
+                                знати
+                                котра
+                                година
+                                в потрібний момент. Скільки хвилин пройшло, скільки залишилося, а ще - які саме моделі і
+                                якого
+                                бренду
+                                виблискують на руці у друга, коханої або конкурента. З давніх часів, коли людина
+                                здогадався
+                                втикнути
+                                в
+                                землю паличку та іншою поличкою взявся відміряти рівні проміжки часу на піску, не
+                                вщухають
+                                суперечки
+                                -
+                                яким повинний бути годинник? Наручним, або настільним, або настінним, або, нарешті,
+                                підлоговим?
+                                Чому
+                                ж
+                                кожен діамантик на безеле або шестерінка в механізмі незмінно змушують гордовито
+                                випнутися
+                                нижню
+                                губу
+                                володаря аксесуара, а щоки - роздутися?</p>
+                        </div>
 
-                        <a class="old-colection-link col-lg-6 col-md-5 col-sm-4" href="#">переглянути колекцію</a>
+                        <a class="old-colection-link col-xl-5 col-md-5 col-sm-4" href="#">переглянути колекцію</a>
                     </div>
                 </div>
             </div>
@@ -192,150 +205,168 @@
         <section class="new-products">
             <h2 class="section-title new-products-title">Нові надходження</h2>
 
-            <!-- <ul class="container row new-product-list">
-                <li class=" col-md-3 col-sm-10 new-product">
-                    <img src="./img/new-clock2.png" alt="new-clock" width="215" height="234">
-                    <p>Carl von Zeyten</p>
-                    <p>16 500 грн.</p>
-                </li>
-                <li class=" col-md-3 col-sm-10 new-product">
-                    <img src="./img/new-clock3.png" alt="new-clock" width="215" height="234">
-                    <p>JORD AR5905</p>
-                    <p>65 000 грн.</p>
-                </li>
-                <li class=" col-md-3 col-sm-10 new-product">
-                    <img src="./img/new-clock4.png" alt="new-clock" width="215" height="234">
-                    <p>Emporio Armani Sportivo </p>
-                    <p>165 000 грн.</p>
-                </li>
-                <li class=" col-md-3 col-sm-10 new-product">
-                    <img src="./img/new-clock5.png" alt="new-clock" width="215" height="234">
-                    <p>Rolex Oyster Perpetual</p>
-                    <p>280 000 грн.</p>
-                </li>
-                <li class=" col-md-3 col-sm-10 new-product">
-                    <img src="./img/new-clock1.png" alt="new-clock" width="215" height="234">
-                    <p>Louis XVI ATHOS</p>
-                    <p>65 000 грн. </p>
-                </li>
-                <li class=" col-md-3 col-sm-10 new-product">
-                    <img src="./img/new-clock6.png" alt="new-clock" width="215" height="234">
-                    <p>U-Boat Italo Fontana</p>
-                    <p>18 700 грн. </p>
-                </li>
-                <li class=" col-md-3 col-sm-10 new-product">
-                    <img src="./img/new-clock7.png" alt="new-clock" width="215" height="234">
-                    <p>Gucci Men's G</p>
-                    <p>38 500 грн.</p>
-                </li>
+            <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
 
-                <li class="col-md-3 col-sm-10 new-product new-product-wrap">
-                    <div class="container new-product-link-wrap">
-                        <a class="new-products-link" href="">ПОКАЗАТИ ВСІ</a>
+                            <div class="new-product col-sm-6 col-md-3">
+                                <div class="new-product-img-wrap">
+                                    <img class="new-product-img" src="./img/new-clock2.png" alt="new-clock" width="215"
+                                        height="234">
+                                </div>
+                                <div class="ms-5">
+                                    <p class="new-seson-item-name">Carl von Zeyten</p>
+                                    <p class="new-seson-item-price">16 500 грн.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </li>
-            </ul> -->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="new-product col-sm-6 col-md-3">
+                                <div class="new-product-img-wrap">
+                                    <img class="new-product-img" src="./img/new-clock3.png" alt="new-clock" width="215"
+                                        height="234">
+                                </div>
+                                <div class="ms-5">
+                                    <p class="new-seson-item-name">JORD AR5905</p>
+                                    <p class="new-seson-item-price">65 000 грн.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">kklklkllklk</div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a>
+            </div> -->
 
             <div id="carouselControls" class="carousel slide container-fluid d-block d-sm-none" data-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active justify-content-center">
-                        <div class="new-product col-sm-6 col-md-3">
-                            <div class="new-product-img-wrap d-flex">
-                                <img class="new-product-img" src="./img/new-clock2.png" alt="new-clock" width="215"
-                                    height="234">
-                            </div>
-                            <div class="ms-5">
-                                <p class="new-seson-item-name">Carl von Zeyten</p>
-                                <p class="new-seson-item-price">16 500 грн.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item justify-content-center">
-                        <div class="new-product col-sm-6 col-md-3">
-                            <div class="new-product-img-wrap d-flex">
-                                <img class="new-product-img" src="./img/new-clock3.png" alt="new-clock" width="215"
-                                    height="234">
-                            </div>
-                            <div class="ms-5">
-                                <p class="new-seson-item-name">JORD AR5905</p>
-                                <p class="new-seson-item-price">65 000 грн.</p>
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="new-product col-sm-6 col-md-3">
+                                <div class="new-product-img-wrap d-flex">
+                                    <img class="new-product-img" src="./img/new-clock2.png" alt="new-clock" width="215"
+                                        height="234">
+                                </div>
+                                <div class="ms-5">
+                                    <p class="new-seson-item-name">Carl von Zeyten</p>
+                                    <p class="new-seson-item-price">16 500 грн.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="carousel-item justify-content-center">
-                        <div class="new-product col-sm-6 col-md-3">
-                            <div class="new-product-img-wrap d-flex">
-                                <img class="new-product-img" src="./img/new-clock4.png" alt="new-clock" width="215"
-                                    height="234">
-                            </div>
-                            <div class="ms-5">
-                                <p class="new-seson-item-name">Emporio Armani Sportivo</p>
-                                <p class="new-seson-item-price">165 000 грн.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item justify-content-center">
-                        <div class="new-product col-sm-6 col-md-3">
-                            <div class="new-product-img-wrap d-flex">
-                                <img class="new-product-img" src="./img/new-clock5.png" alt="new-clock" width="215"
-                                    height="234">
-                            </div>
-                            <div class="ms-5">
-                                <p class="new-seson-item-name">Rolex Oyster Perpetual</p>
-                                <p class="new-seson-item-price">280 000 грн.</p>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="new-product col-sm-6 col-md-3">
+                                <div class="new-product-img-wrap d-flex">
+                                    <img class="new-product-img" src="./img/new-clock3.png" alt="new-clock" width="215"
+                                        height="234">
+                                </div>
+                                <div class="ms-5">
+                                    <p class="new-seson-item-name">JORD AR5905</p>
+                                    <p class="new-seson-item-price">65 000 грн.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="carousel-item justify-content-center">
-                        <div class="new-product col-sm-6 col-md-3">
-                            <div class="new-product-img-wrap d-flex">
-                                <img class="new-product-img" src="./img/new-clock1.png" alt="new-clock" width="215"
-                                    height="234">
-                            </div>
-                            <div class="ms-5">
-                                <p class="new-seson-item-name">Louis XVI ATHOS</p>
-                                <p class="new-seson-item-price">65 000 грн.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item justify-content-center">
-                        <div class="new-product col-sm-6 col-md-3">
-                            <div class="new-product-img-wrap d-flex">
-                                <img class="new-product-img" src="./img/new-clock6.png" alt="new-clock" width="215"
-                                    height="234">
-                            </div>
-                            <div class="ms-5">
-                                <p class="new-seson-item-name">U-Boat Italo Fontana</p>
-                                <p class="new-seson-item-price">18 700 грн.</p>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="new-product col-sm-6 col-md-3">
+                                <div class="new-product-img-wrap d-flex">
+                                    <img class="new-product-img" src="./img/new-clock4.png" alt="new-clock" width="215"
+                                        height="234">
+                                </div>
+                                <div class="ms-5">
+                                    <p class="new-seson-item-name">Emporio Armani Sportivo</p>
+                                    <p class="new-seson-item-price">165 000 грн.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="carousel-item justify-content-center">
-                        <div class="new-product col-sm-6 col-md-3">
-                            <div class="new-product-img-wrap d-flex">
-                                <img class="new-product-img" src="./img/new-clock7.png" alt="new-clock" width="215"
-                                    height="234">
-                            </div>
-                            <div class="ms-5">
-                                <p class="new-seson-item-name">Gucci Men's G</p>
-                                <p class="new-seson-item-price">38 500 грн.</p>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="new-product col-sm-6 col-md-3">
+                                <div class="new-product-img-wrap d-flex">
+                                    <img class="new-product-img" src="./img/new-clock5.png" alt="new-clock" width="215"
+                                        height="234">
+                                </div>
+                                <div class="ms-5">
+                                    <p class="new-seson-item-name">Rolex Oyster Perpetual</p>
+                                    <p class="new-seson-item-price">280 000 грн.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="carousel-item justify-content-center">
-                        <div class="new-product last-td col-sm-6 col-md-3">
-                            <div class="new-product-img-wrap d-flex">
-                                <img class="new-product-img" src="./img/new-clock3.png" alt="new-clock" width="215"
-                                    height="234">
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="new-product col-sm-6 col-md-3">
+                                <div class="new-product-img-wrap d-flex">
+                                    <img class="new-product-img" src="./img/new-clock1.png" alt="new-clock" width="215"
+                                        height="234">
+                                </div>
+                                <div class="ms-5">
+                                    <p class="new-seson-item-name">Louis XVI ATHOS</p>
+                                    <p class="new-seson-item-price">65 000 грн.</p>
+                                </div>
                             </div>
-                            <a class="all-products" href="#">ПОКАЗАТИ ВСІ</a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="new-product col-sm-6 col-md-3">
+                                <div class="new-product-img-wrap d-flex">
+                                    <img class="new-product-img" src="./img/new-clock6.png" alt="new-clock" width="215"
+                                        height="234">
+                                </div>
+                                <div class="ms-5">
+                                    <p class="new-seson-item-name">U-Boat Italo Fontana</p>
+                                    <p class="new-seson-item-price">18 700 грн.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="new-product col-sm-6 col-md-3">
+                                <div class="new-product-img-wrap d-flex">
+                                    <img class="new-product-img" src="./img/new-clock7.png" alt="new-clock" width="215"
+                                        height="234">
+                                </div>
+                                <div class="ms-5">
+                                    <p class="new-seson-item-name">Gucci Men's G</p>
+                                    <p class="new-seson-item-price">38 500 грн.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="new-product last-td col-sm-6 col-md-3">
+                                <div class="new-product-img-wrap d-flex">
+                                    <img class="new-product-img" src="./img/new-clock3.png" alt="new-clock" width="215"
+                                        height="234">
+                                </div>
+                                <a class="all-products" href="#">ПОКАЗАТИ ВСІ</a>
+                            </div>
                         </div>
                     </div>
 
@@ -351,9 +382,9 @@
             </div>
 
             <div class="container-fluid table-responsive-xl m-0 d-none d-sm-block">
-                <table class="table container">
+                <table class="table container mb-0">
                     <tbody class="container new-product-list">
-                        <tr class="row">
+                        <tr class="row justify-content-center">
                             <td class="new-product col-sm-6 col-md-3">
                                 <div class="new-product-img-wrap d-flex justify-content-center">
                                     <img class="new-product-img" src="./img/new-clock2.png" alt="new-clock" width="215"
@@ -386,8 +417,7 @@
                                 <p class="new-seson-item-name">Rolex Oyster Perpetual</p>
                                 <p class="new-seson-item-price">280 000 грн.</p>
                             </td>
-                        </tr>
-                        <tr class="row">
+
                             <td class="new-product col-sm-6 col-md-3">
                                 <div class="new-product-img-wrap d-flex justify-content-center">
                                     <img class="new-product-img" src="./img/new-clock1.png" alt="new-clock" width="215"
@@ -414,8 +444,8 @@
                             </td>
                             <td class="new-product last-td col-sm-6 col-md-3">
                                 <div class="new-product-img-wrap d-flex justify-content-center">
-                                    <img class="new-product-img" src="./img/new-clock3.png" alt="new-clock" width="215"
-                                        height="234">
+                                    <img class="new-product-img opacity-50" src="./img/new-clock3.png" alt="new-clock"
+                                        width="215" height="234">
                                 </div>
                                 <a class="all-products" href="">ПОКАЗАТИ ВСІ</a>
                             </td>
@@ -431,9 +461,10 @@
 
             <ul class="container-fluid">
                 <li class="row mb-3 colextions-wrapper ms-0">
-                    <img class="col-xl-5 col-lg-4 col-md-6 col-sm-12 ps-0 article-img" src="./img/Articles1.webp"
+                    <img class="col-xl-6 col-lg-4 col-md-6 col-sm-12 ps-0 article-img" src="./img/Articles1.webp"
                         alt="Articles">
-                    <div class="col-lg-6 col-md-4 col-sm-12 p-md-0 p-sm-5">
+                    <div
+                        class="col-xl-4 col-md-10 col-sm-12 offset-xl-0 offset-md-1 p-md-0 p-sm-5 article-text-wrapper">
                         <h3 class="article-title">ROGER DUBUIS. ЧАСТИНА 1</h3>
                         <p class="article-text pe-md-3">Цей чемпіон «гіперхорології» став синонімом надмірності й
                             завдяки
@@ -446,16 +477,17 @@
                             за виготовленням та оздобленням деталей, а також за збіркою та регулюванням годинників
                             компанії.
                         </p>
-                        <div class="d-flex justify-content-between pt-5">
+                        <div class="d-flex justify-content-between article-butn-wrap">
                             <a class="new-products-link" href="">читати</a>
                             <p class="hashtags ms-md-4 me-3">#ЕКСКЛЮЗИВ #ПРОБРЕНД</p>
                         </div>
                     </div>
                 </li>
                 <li class="row mb-3 colextions-wrapper ms-0">
-                    <img class="col-xl-5 col-lg-4 col-md-6 col-sm-12 ps-0 article-img" src="./img/Articles2.webp"
+                    <img class="col-xl-6 col-lg-4 col-md-6 col-sm-12 ps-0 article-img" src="./img/Articles2.webp"
                         alt="Articles">
-                    <div class="col-lg-6 col-md-4 col-sm-12 p-md-0 p-sm-5">
+                    <div
+                        class="col-xl-4 col-md-10 col-sm-12 offset-xl-0 offset-md-1 p-md-0 p-sm-5 article-text-wrapper">
                         <h3 class="article-title">ІСТОРІЯ ЛЮКСОВИХ ГОДИННИКІВ. ЧАСТИНА 1</h3>
                         <p class="article-text pe-3">Історія люксових годинників зародилася дуже давно, вона веде відлік
                             із
@@ -466,16 +498,17 @@
                             Власне, з
                             того часу мало що змінилося.</p>
 
-                        <div class="d-flex justify-content-between pt-5">
+                        <div class="d-flex justify-content-between article-butn-wrap">
                             <a class="new-products-link" href="">читати</a>
                             <p class="hashtags ms-md-4 me-3">#ЕКСКЛЮЗИВ #IСТОРIЯ</p>
                         </div>
                     </div>
                 </li>
                 <li class="row colextions-wrapper ms-0">
-                    <img class="col-xl-5 col-lg-4 col-md-6 col-sm-12 ps-0 article-img" src="./img/Articles3.webp"
+                    <img class="col-xl-6 col-lg-4 col-md-6 col-sm-12 ps-0 article-img" src="./img/Articles3.webp"
                         alt="Articles">
-                    <div class="col-lg-6 col-md-4 col-sm-12 p-md-0 p-sm-5">
+                    <div
+                        class="col-xl-4 col-md-10 col-sm-12 offset-xl-0 offset-md-1 p-md-0 p-sm-5 article-text-wrapper">
                         <h3 class="article-title">ВЕЛИКИЙ ТА СМІЛИВИЙ TISSOT PRS 516 CHRONOGRAPH</h3>
                         <p class="article-text pe-3">На початку цього року компанія Tissot оновила модель PRS 516
                             Automatic
@@ -487,7 +520,7 @@
                             чудовою
                             ціною.</p>
 
-                        <div class="d-flex justify-content-between pt-5">
+                        <div class="d-flex justify-content-between article-butn-wrap">
                             <a class="new-products-link" href="">читати</a>
                             <p class="hashtags ms-md-4 me-3">#ХРОНОГРАФ #TISSOT #ОГЛЯДГОДИННИКIВ</p>
                         </div>
@@ -515,9 +548,10 @@
     <footer class="footer">
         <div class="container footer-main-wrap">
             <div class="row">
-                <div class="col-md-4 col-sm-12">
+                <div class="col-xl-4 col-md-11 col-sm-10 offset-xl-0 offset-md-1 offset-lg-1">
                     <h3 class="footer-section-title">про компанію</h3>
-                    <p class="footer-section-text">Компанія PORTEN – лідер на українському ринку годинників. На цей час
+                    <p class="footer-section-text col-11">Компанія PORTEN – лідер на українському ринку годинників. На
+                        цей час
                         ми об'єднуємо більше сорока
                         магазинів у
                         різних куточках України та інтернет-магазин, який став першим в нашому сегменті ринку. Торгова
@@ -531,18 +565,18 @@
                         SWAROVSKI и CHRISTINA.</p>
                 </div>
 
-                <div class="col-md-4 col-sm-12">
+                <div class="col-xl-4 col-md-6 col-sm-12 offset-xl-0 offset-md-1 mt-md-5 mt-xl-0">
                     <div class="containet footer-categories">
                         <h3 class="footer-section-title">Категорії</h3>
-                        <ul class="row p-md-0 p-sm-3">
+                        <ul class="row p-md-0 p-sm-3 col-12">
                             <li class="col-lg-4 col-md-6 col-sm-3 mb-4"><a class="btn" href="">годинники</a></li>
                             <li class="col-lg-4 col-md-6 col-sm-3 mb-4"><a class="btn" href="">запонки</a></li>
                             <li class="col-lg-4 col-md-6 col-sm-3 mb-4"><a class="btn" href="">ремені</a></li>
-                            <div class="row">
-                                <li class="col-lg-6 col-md-12 col-sm-5 mt-6 pe-0 mb-4"><a class="btn" href="">ювелірні
+                            <div class="row col-12 pe-0">
+                                <li class="col-lg-6 col-md-6 col-sm-5 mt-6 pe-0 mb-4"><a class="btn" href="">ювелірні
                                         вироби</a>
                                 </li>
-                                <li class="col-lg-6 col-md-12 col-sm-5 mt-6 mb-4"><a class="btn" href="">на
+                                <li class="col-lg-6 col-md-6 col-sm-5 mt-6 mb-4"><a class="btn" href="">на
                                         замовлення</a></li>
                             </div>
                             <li class="col-md-4"><a class="btn" href="">браслети</a></li>
@@ -550,25 +584,28 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-12 pe-0 mb-md-0 mb-sm-3">
+                <div class="col-md-4 col-sm-12 pe-0 mb-md-0 mb-sm-3 mt-md-5 mt-xl-0">
                     <div class="container p-0">
-                        <h3 class="footer-section-title">розсилка</h3>
-                        <p class="footer-section-text">Компанія пропонує тільки оригінальну продукцію від найвідоміших
+                        <h3 class="footer-section-title mailing">розсилка</h3>
+                        <p class="footer-section-text col-11">Компанія пропонує тільки оригінальну продукцію від
+                            найвідоміших
                             світових брендів за найкращою
                             ціною. Ми
                             дбаємо про комфорт наших покупців і постійно розширюємо можливості сервісного
                             обслуговування.
                         </p>
                         <input class="email-input" type="email" name="email" id="email-input" placeholder="Ваша пошта">
-                        <button type="button" class="btn">ПІДПИСАТИСЯ</button>
+                        <button type="button" class="btn mt-lg-4 mt-md-4 mt-xl-0">ПІДПИСАТИСЯ</button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid d-flex justify-content-between pt-3 px-5 m-0 footer-copiright">
-            <p>© 2022 PORTEN, Інтернет-магазин годинників</p>
-            <p>Угода користувача</p>
+        <div class="container-fluid d-inline-flex pt-3 footer-copiright">
+            <div class="container">
+                <p class="col-10">© 2022 PORTEN, Інтернет-магазин годинників</p>
+                <p class="col">Угода користувача</p>
+            </div>
         </div>
     </footer>
 </body>
