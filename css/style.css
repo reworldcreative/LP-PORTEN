@@ -36,10 +36,15 @@ li {
 .pre-header {
     background-color: var(--main-bg);
     color: var(--second);
+    padding: 0 405px;
 }
 
 .pre-content {
     margin: 14px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
 }
 
 .info {
@@ -50,12 +55,15 @@ li {
     /* margin-right: 400px; */
     font-size: 36px;
     line-height: 54px;
+    width: fit-content;
     /* justify-content: space-around; */
     color: var(--main-color);
+    margin-right: 469px;
 }
 
-.navbar-nav:last-child {
-    margin-right: 0;
+.navbar-nav {
+    width: 433px;
+    margin-right: 20px;
 }
 
 .navbar {
@@ -66,7 +74,14 @@ li {
     /* padding-left: 30px !important; */
 }
 
+.telephone-icon {
+    width: 16px;
+    font-size: 16px;
+}
+
 .login-icon {
+    font-size: 14px;
+    width: 14px;
     margin-right: 19px;
 }
 
@@ -79,11 +94,23 @@ li {
     color: var(--second);
 }
 
+.nav-item:nth-child(2)>.nav-link {
+    padding: 31px 17px !important;
+}
+
+.nav-item:nth-child(3)>.nav-link {
+    padding: 31px 12px !important;
+}
+
 .active,
 .nav-link:hover,
 .nav-link:focus {
     background-color: #1F1F1F;
     color: var(--main-color) !important;
+}
+
+.icons {
+    width: 84px;
 }
 
 .icon {
@@ -140,6 +167,15 @@ li {
     text-transform: uppercase;
 }
 
+.hero-title::after {
+    content: " ";
+    margin: 0 auto 7px;
+    background-color: var(--main-color);
+    display: block;
+    width: 179px;
+    height: 2px;
+}
+
 .section-title {
     font-family: 'Playfair Display', serif;
     font-style: normal;
@@ -152,8 +188,9 @@ li {
 }
 
 .colextions-wrapper {
-    width: 100%;
-    margin-top: 35px;
+    /* width: 100%; */
+    /* margin-top: 35px; */
+    padding: 0 405px;
 }
 
 .article-img {
@@ -166,12 +203,20 @@ li {
     background-color: var(--main-bg);
     padding: 0 auto;
     padding-top: 93px;
-    padding-bottom: 93px;
+    /* padding-bottom: 93px; */
     margin: 0;
+    width: 1040px;
+    height: 730px;
+}
+
+.new-seson>.section-title {
+    margin-left: 348px !important;
+    margin-right: 316px !important;
+    width: 376px;
 }
 
 .new-seson-list-wrapper {
-    padding: 0;
+    padding: 0 64px 93px 96px;
 }
 
 .new-seson-item:last-child {
@@ -192,7 +237,7 @@ li {
 .new-seson-img-wraper {
     /* padding: 27px 22px 34px; */
     background-color: #191B1C;
-    padding: 30px 22px;
+    padding: 27px 22px 34px 23px;
     /* width: 220px; */
 }
 
@@ -208,15 +253,16 @@ li {
 
 .new-colection {
     background-image: url(../img/new-colection-bg.webp);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat, repeat;
     background-position: left top;
     padding: 0;
+    width: 880px;
 }
 
 .new-colection-wraper {
     padding-top: 484px;
-    padding: 0 auto;
+    padding: 484px 252px 100px;
     text-align: center;
 }
 
@@ -281,13 +327,18 @@ li {
     line-height: 150%;
     text-align: center;
     margin-bottom: 64px;
+    max-width: 628px;
 }
 
 .old-colection-text-wrap {
-    margin: 100px auto 94px;
+    margin: 100px auto 98px;
 }
 
-.old-colection-text-wrap>.section-title::after {
+.old-colection-text-wrap>.row {
+    padding: 0 199px 0 157px;
+}
+
+.old-colection-title::after {
     margin: 40px auto;
 }
 
@@ -298,7 +349,7 @@ li {
 }
 
 .new-products-title::after {
-    margin: 40px auto 81px;
+    margin: 40px auto 82px;
 }
 
 .new-product-list {
@@ -347,23 +398,28 @@ table {
 
 .new-product {
     margin-right: 23px;
-    margin-bottom: 0 !important;
     width: 260px;
     height: 405px;
     color: var(--main-color);
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     border: none;
+}
+
+.new-product:nth-child(-n+4) {
+    margin-bottom: 40px;
 }
 
 .new-product-img {
     width: 215px;
     height: 264px;
-    padding: 30px 32px !important;
+    /* padding: 30px 32px !important; */
 }
 
 .new-product-img-wrap {
     /* padding: 30px 32px !important; */
     background-color: var(--second-bg) !important;
+    width: 260px;
+    padding: 30px 32px !important;
 }
 
 .new-products-link,
@@ -400,6 +456,14 @@ table {
 .articles {
     padding-top: 63px;
     background-color: var(--second-bg);
+}
+
+.article {
+    margin-bottom: 30px;
+}
+
+.article:nth-child(2n) {
+    margin-bottom: 35px;
 }
 
 .article-title {
@@ -441,11 +505,11 @@ table {
 .partners {
     background-color: var(--second-bg);
     padding-top: 90px;
-    padding-bottom: 100px;
+    padding-bottom: 106px;
 }
 
 .partners>.section-title::after {
-    margin: 50px auto 66px;
+    margin: 51px auto 66px;
 }
 
 .partners-list {
@@ -453,23 +517,33 @@ table {
     margin-top: 66px;
 }
 
+.partners-list>ul {
+    width: max-content;
+}
+
 .partner-logo {
-    margin: auto 30px;
+    /* margin: auto 30px; */
+    margin-right: 30px;
     padding: 0;
-    width: 250px;
+    width: max-content;
+}
+
+.partner-logo>img {
+    width: fit-content;
 }
 
 .footer {
     background-image: url(../img/footer-bg.webp);
     background-color: var(--main-bg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat, repeat;
-    background-position: center;
+    background-position: top;
     padding-top: 80px;
 }
 
 .footer-main-wrap {
-    padding-bottom: 45px;
+    /* padding-bottom: 45px; */
+    padding: 0 405px;
 }
 
 .footer-section-title {
@@ -499,16 +573,38 @@ table {
     font-size: 14px;
     line-height: 150%;
     background: rgba(255, 255, 255, 0.4);
+    border: none;
 }
 
 .email-input::placeholder {
-    color: var(--main-color);
+    color: #969696;
+}
+
+.category {
+    width: fit-content;
+}
+
+.category:nth-child(2) {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.category:nth-child(4) {
+    margin-right: 10px;
+}
+
+.category:nth-child(4),
+.category:nth-child(5) {
+    margin-right: 10px;
+    margin-top: 17px;
+    margin-bottom: 21px;
 }
 
 .btn {
     background-color: #0F0F0F;
     border-radius: 0;
     padding: 10px 20px;
+    border: none;
     color: var(--main-color);
 }
 
@@ -516,10 +612,24 @@ table {
     background-color: #1F1F1F !important;
 }
 
+.footer-btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+
+    letter-spacing: 0.05em;
+}
+
 .footer-copiright {
     background-color: #0F0F0F;
-    padding: 17px 7% !important;
-    margin-top: 50px;
+    padding: 17px 405px !important;
+    margin-top: 67px;
+    color: #D0D0D0;
+}
+
+.user-agreement {
+    text-decoration: underline;
 }
 
 .footer-copiright p {
