@@ -267,11 +267,15 @@ li {
     background-repeat: no-repeat, repeat;
     background-position: left top;
     padding: 0;
+
+    /* padding-left: 252px;
+    padding-right: 252px; */
     /* width: 880px; */
 }
 
 .new-colection-wraper {
     padding-top: 484px;
+    /* width: 376px; */
     /* padding: 484px 252px 100px; */
     text-align: center;
 }
@@ -682,6 +686,10 @@ table {
     .footer-main-wrap {
         padding: 0 250px;
     }
+
+    .pre-header {
+        padding: 0 335px;
+    }
 }
 
 @media only screen and (max-width: 1700px) {
@@ -691,7 +699,7 @@ table {
     }
 
     .pre-header {
-        padding: 0 18%;
+        padding: 0 20%;
     }
 
     .logo {
@@ -715,6 +723,10 @@ table {
 
     .footer-main-wrap {
         padding: 0 120px;
+    }
+
+    .pre-header {
+        padding: 0 18%;
     }
 }
 
@@ -748,6 +760,10 @@ table {
     .new-products {
         padding-top: 30px;
     }
+
+    .pre-header {
+        padding: 0 15%;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -761,7 +777,10 @@ table {
     }
 
     .logo {
-        margin-right: 20%;
+        /* margin-right: 20%; */
+
+        margin-left: -300px;
+        margin-right: 85%;
     }
 
     .pre-header {
@@ -772,6 +791,7 @@ table {
 
 @media only screen and (max-width: 1000px) {
     .logo {
+        margin-left: 0;
         margin-right: 5%;
     }
 
