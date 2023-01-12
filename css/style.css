@@ -211,6 +211,7 @@ li {
     padding-bottom: 93px;
     margin: 0;
     /* width: fit-content; */
+    width: 54.17%;
 
     /* padding: 93px 64px 83px 96px; */
 }
@@ -271,6 +272,7 @@ li {
     /* padding-left: 252px;
     padding-right: 252px; */
     /* width: 880px; */
+    width: 45.83%;
 }
 
 .new-colection-wraper {
@@ -658,9 +660,23 @@ table {
     margin: 0;
 }
 
+@media only screen and (max-width: 1919px) {
+
+    .new-seson-list-wrapper {
+        padding: 0 60px 0 60px;
+    }
+}
+
+
 @media only screen and (max-width: 1910px) {
     .footer {
         background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 1850px) {
+    .new-seson-list-wrapper {
+        padding: 0 40px 0 40px;
     }
 }
 
@@ -692,6 +708,12 @@ table {
     }
 }
 
+@media only screen and (max-width: 1780px) {
+    .new-seson-list-wrapper {
+        padding: 0 20px 0 20px;
+    }
+}
+
 @media only screen and (max-width: 1700px) {
 
     .article-img {
@@ -710,9 +732,12 @@ table {
         padding: 0 170px;
     }
 
+    .new-seson-list-wrapper {
+        padding: 0;
+    }
 }
 
-@media only screen and (max-width: 1550px) {
+@media only screen and (max-width: 1650px) {
     .carousel-new-seson {
         display: block;
     }
@@ -720,6 +745,14 @@ table {
     .new-seson-container {
         display: none;
     }
+
+    .new-colection-wraper {
+        padding-top: 430px;
+    }
+
+}
+
+@media only screen and (max-width: 1550px) {
 
     .footer-main-wrap {
         padding: 0 120px;
@@ -785,6 +818,14 @@ table {
 
     .pre-header {
         padding: 0 5%;
+    }
+
+    .new-colection {
+        width: 100%;
+    }
+
+    .new-seson {
+        width: 100%;
     }
 
 }
