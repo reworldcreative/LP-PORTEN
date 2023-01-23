@@ -47,7 +47,15 @@
                 </div>
                 <div class="d-flex justify-content-end col-xl-2 col-md-3 p-0 login-wrap">
                     <i class="bi bi-box-arrow-in-right login-icon"></i>
-                    <p class="login m-0">Вхід / Реєстрація</p>
+                    <div class="login m-0 d-inline-flex">
+                        <button class="login-btn" type="button" data-toggle="modal" data-target="#LogInModal"
+                            aria-expanded="false" aria-controls="LogInModal">
+                            Вхід </button>
+                        &nbsp;/&nbsp;
+                        <button class="registr-btn" type="button" data-toggle="modal" data-target="#RegistrationModal"
+                            aria-expanded="false" aria-controls="RegistrationModal">
+                            Реєстрація</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -86,6 +94,88 @@
         </div>
         </div>
     </header>
+
+    <!-- modal -->
+    <div class="modal fade container-fluid" id="LogInModal" tabindex="-1" role="dialog"
+        aria-labelledby="LogInModalLabel" aria-hidden="true">
+        <div class="modal-dialog d-flex justify-content-center" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">LogIn</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <form class="form-login">
+                        <div class="form-group">
+                            <label for="LogInInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="LogInInputEmail1" aria-describedby="emailHelp"
+                                placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="LogInInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="LogInInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="LogInCheck1">
+                            <label class="form-check-label" for="LogInCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade container-fluid" id="RegistrationModal" tabindex="-1" role="dialog"
+        aria-labelledby="RegistrationModal" aria-hidden="true">
+        <div class="modal-dialog d-flex justify-content-center" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Registration</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <form class="form-login">
+                        <div class="form-group">
+                            <label for="RegistrationInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="RegistrationInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="RegistrationInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="RegistrationInputPassword1"
+                                placeholder="Password" name="Password1">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="RegistrationInputPassword2">Password confirm</label>
+                            <input type="password" class="form-control" id="RegistrationInputPassword2"
+                                placeholder="Password confirm" name="Password2">
+                        </div>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="RegistrationCheck1">
+                            <label class="form-check-label" for="RegistrationCheck1">I agree with the terms</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--  -->
 
     <main>
         <section class="hero">
